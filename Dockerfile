@@ -18,4 +18,4 @@ RUN mkdir -p /tmp/protoc && \
 # Get the source from GitHub
 RUN go get google.golang.org/grpc
 # Install protoc-gen-go
-RUN get get github.com/golang/protobuf/protoc-gen-go
+RUN go get github.com/golang/protobuf/protoc-gen-go
